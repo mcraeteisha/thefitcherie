@@ -15,6 +15,15 @@ body {
     color: var(--black);
     font-family: 'Raleway', sans-serif;
 }
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
 `;
 
 export default GlobalStyle;
