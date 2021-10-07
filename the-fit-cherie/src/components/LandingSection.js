@@ -8,11 +8,13 @@ const LandingSection = () => {
         <Landing>
             <BannerContainer>
                 <BannerImage src={LandingPageBanner} alt="thefitcherie"/>
+                <DescriptionContainer>
+                    <DescriptionBox>
+                        <h2>Dance | Barre | Stretching</h2>
+                        <Tagline>Feel good fitness, anywhere you go.</Tagline>
+                    </DescriptionBox>
+                </DescriptionContainer>
             </BannerContainer>
-            <div className="descriptionBox">
-                <h2>Dance | Barre | Stretching</h2>
-                <h1>Feel good fitness, anywhere you go.</h1>
-            </div>
         </Landing>
     )
 };
@@ -25,6 +27,7 @@ const Landing = Styled.div
 const BannerContainer = Styled.div
     `
     display: flex;
+    position: relative;
     `
 
 const BannerImage = Styled.img
@@ -32,6 +35,30 @@ const BannerImage = Styled.img
     width: 100%;
     height: 100%;
     object-fit: cover;
-    `    
+    `  
+
+const DescriptionContainer = Styled.div
+    `
+    width: 500px;
+    height: 200px;
+    padding: 2.50em;
+    position: absolute;
+    left: 53%;
+    top: 30%;
+    background: var(--white);
+    `       
+    
+const DescriptionBox = Styled.div
+    `
+    width: %;
+    height: 25%;
+    text-align: center;
+    ` 
+
+const Tagline = Styled.h1
+    `
+    font-size: 2.5em;
+    `       
+
 
 export default LandingSection;

@@ -23,6 +23,7 @@ h1 {
 h2 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    font-size: 1.25em;
 }
 `;
 
