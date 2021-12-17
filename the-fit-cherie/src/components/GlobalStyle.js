@@ -23,7 +23,9 @@ h1 {
 h2 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-size: 1.25em;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--dark-blue);
 }
 `;
 
